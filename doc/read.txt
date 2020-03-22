@@ -1,0 +1,84 @@
+
+localhost:8081/jsondemo/epidemic/request
+EpidemicController
+
+{
+	"cmd": "328",
+	"query": {
+		"con": "12",
+		"qdm": "13",
+		"qmc": "14",
+		"qr": "15",
+		"rfhm": "16",
+		"dylx": "02",
+		"dnhm": "17",
+		"caxy": "18",
+		"xbkm": "19",
+		"fxhm": "10",
+		"wgx": "1",
+		"kyamc": "",
+		"hip": "",
+		"szh": "",
+		"jhm": "移动00",
+		"dmuz": "移动11",
+		"wezc": "移动33"
+	}
+}
+
+2. 第二个接口返回数据
+
+
+{{
+	"code": "10000",
+	"msg": "查询成功",
+	"iscontactperson": "是否为可能密切接触者",
+	"sfzt": "是否在逃",
+	"candata": [{
+			"xm": "姓1名",
+			"sfzhm": "身份证号码",
+			"jcrq": "接触日期",
+			"jclx": "接触类型"
+		},
+		{
+			"xm": "姓2名",
+			"sfzhm": "身份证号码",
+			"jcrq": "接触日期",
+			"jclx": "接触类型"
+		}
+	],
+	"cksfcz": "常口是否存在",
+	"sfdghb": "是否到过湖北",
+	"sfycl": "是否有车辆",
+	"clsfdghb": "车辆是否到过湖北",
+	"otncandata": [{
+			"xm": "姓3名",
+			"sfzhm": "身份证号码",
+			"grylx": "感染源类型",
+			"jcrq": "接触日期",
+			"jclx": "接触类型"
+		},
+		{
+			"xm": "姓4名",
+			"sfzhm": "身份证号码",
+			"grylx": "感染源类型",
+			"jcrq": "接触日期",
+			"jclx": "接触类型"
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
